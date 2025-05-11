@@ -171,7 +171,31 @@ Each image is preprocessed and labeled accordingly to train the model effectivel
 
 ## References
 
-- [TrashNet Dataset](https://github.com/garythung/trashnet)
-- [PyTorch Transfer Learning Documentation](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
-- [Scikit-learn Evaluation Metrics](https://scikit-learn.org/stable/modules/model_evaluation.html)
-- [PyTorch Image Classification Tutorial](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
+- **T. H. Thung and M. R. Yang**, "Classification of Trash for Recyclability Status," Stanford University CS229 Project Report, 2016.  
+   [Read the full report](https://cs229.stanford.edu/proj2016/report/ThungYang-ClassificationOfTrashForRecyclabilityStatus-report.pdf)
+
+- **S. He, D. Song, and Y. Zhuang**, "Deep Learning for Image-Based Waste Classification," *IEEE Access*, vol. 7, pp. 180449–180457, 2019.
+
+- **K. Simonyan and A. Zisserman**, "Very Deep Convolutional Networks for Large-Scale Image Recognition," arXiv preprint arXiv:1409.1556, 2014.
+
+- **A. Krizhevsky, I. Sutskever, and G. E. Hinton**, "ImageNet Classification with Deep Convolutional Neural Networks," in *Advances in Neural Information Processing Systems*, vol. 25, 2012.
+
+- **M. Tan and Q. Le**, "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks," in *Proc. ICML*, 2019.
+
+- **OpenAI**, "ChatGPT"  
+   [Visit ChatGPT](https://chat.openai.com/)
+
+- **FreeCodeCamp**, “Trash Classification Using CNN with PyTorch,” YouTube.  
+   [Watch on YouTube](https://www.youtube.com/watch?v=dg3pza4y2ws)
+
+- **Nicholas Renotte**, “Image Classification with PyTorch,” YouTube.  
+   [Watch on YouTube](https://www.youtube.com/watch?v=Z_v8Hq3yG2g)
+
+- **PyTorch Official Documentation**  
+   [Read the documentation](https://pytorch.org/docs/stable/index.html)
+
+- **Torchvision Documentation**  
+    [Read the documentation](https://pytorch.org/vision/stable/index.html)
+
+- **Scikit-learn Documentation**  
+    [Read the documentation](https://scikit-learn.org/stable/documentation.html)
