@@ -157,7 +157,9 @@ Each image is preprocessed and labeled accordingly to train the model effectivel
 -️ **Deprecation warnings**: 
   - Messages related to `pretrained=True` (now replaced with `weights=...`) in `torchvision.models` are safe to ignore.
   - You can update the code to follow the latest PyTorch API if desired.
-
+- ### If you want to run this file use following links:
+      - https://trashnetapp.streamlit.app/ # from TrashNet dataset
+      - https://trashnetappv2.streamlit.app/ # from TeamMate dataset
 ---
 
 ## Authors
