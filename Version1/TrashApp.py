@@ -62,7 +62,7 @@ if uploaded_file:
     image = Image.open(uploaded_file).convert("RGB")
     st.image(image, caption="Uploaded Image", use_column_width=True)
 
-    model = load_model("trashnet.pt")
+    model = load_model("Version1/trashnet.pt")
     class_label, general_category = predict_image(model, image)
 
     st.markdown(f"### 🔍 Predicted Class: `{class_label}`")
