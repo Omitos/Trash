@@ -121,37 +121,34 @@ Each image is preprocessed and labeled accordingly to train the model effectivel
 ### Sample Classification Report for Version 1
 
 
-Classification Report:
+                  precision    recall  f1-score   support
 
-                   precision    recall  f1-score   support
+    cardboard       0.85      0.92      0.88        36
+    glass           0.91      0.72      0.81        40
+    metal           0.75      0.91      0.82        43
+    paper           0.87      0.91      0.89        58
+    plastic         0.88      0.85      0.86        60
+    trash           0.70      0.47      0.56        15
 
-        cans        0.43      0.75      0.55         4
-        food        0.82      0.82      0.82        11
-       glass        0.90      0.90      0.90        10
-       paper        0.92      0.92      0.92        12
-     plastic        0.90      0.69      0.78        13
-
-    accuracy                           0.82         50
-    macro avg       0.79     0.82      0.79         50
-    weighted avg    0.85     0.82      0.83         50
+    accuracy                            0.84        252
+    macro avg       0.83      0.80      0.80        252
+    weighted avg    0.84      0.84      0.84        252
 
 
 ### Sample Classification Report for Version 2
 
 
-Classification Report:
-
                    precision    recall  f1-score   support
 
-        cans        0.43      0.75      0.55         4
-        food        0.82      0.82      0.82        11
-       glass        0.90      0.90      0.90        10
-       paper        0.92      0.92      0.92        12
-     plastic        0.90      0.69      0.78        13
+    cans             0.43        0.75     0.55        4
+    food             0.82        0.82     0.82       11
+    glass            0.90        0.90     0.90       10
+    paper            0.92        0.92     0.92       12
+    plastic          0.90        0.69     0.78       13
 
-    accuracy                           0.82         50
-    macro avg       0.79     0.82      0.79         50
-    weighted avg    0.85     0.82      0.83         50
+    accuracy                              0.82       50
+    macro avg        0.79        0.82     0.79       50
+    weighted avg     0.85        0.82     0.83       50
 
 
 ## Known Issues
