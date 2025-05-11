@@ -68,15 +68,14 @@ if uploaded_file:
     st.markdown(f"### 🔍 Predicted Class: `{class_label}`")
     st.markdown(f"### ♻️ General Category: `{general_category}`")
 
-    # Optional: Show softmax confidence scores
     if st.checkbox("Show Class Probabilities"):
         image_tensor = transform(image).unsqueeze(0)
         with torch.no_grad():
             output = model(image_tensor)
             probs = torch.exp(output).squeeze().numpy()
 
-        fig, ax = plt.subplots()
-        ax.barh(class_names, probs)
-        ax.set_xlabel("Confidence")
-        ax.set_title("Class Probabilities")
-        st.pyplot(fig)
+        st.markdown("### 🔢 Class Probabilities (%):")
+        for idx, class_name in enumerate(class_names):
+            percentage = probs[idx] * 100
+            category = category_map[class_name]
+            st.write(f"**{class_name.capitalize()}**: {percentage:.2f}% (_{category}_)")
