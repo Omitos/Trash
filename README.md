@@ -56,8 +56,8 @@ pip install -r requirements.txt
 │ └── Testv2.ipynb
 │ └── TrashAppv2.py
 │ └── trashnetV2.pt
-├── doc.pdf # Fully written documentation about project
-├── Poster.png # Project poster for presentation
+├── WasDet_AI_report.pdf # Fully written documentation about project
+├── WasDet_Poster.png # Project poster for presentation
 ├── requirements.txt # Required packages
 └── README.md # Project documentation
 ```
