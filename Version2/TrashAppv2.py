@@ -6,13 +6,12 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 # Mapping class index to original TrashNet labels
-class_names = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
+class_names = ['glass', 'cans', 'paper', 'plastic', 'trash']
 
 # Mapping original labels to general categories
 category_map = {
-    'cardboard': 'Recyclable',
     'glass': 'Recyclable',
-    'metal': 'Recyclable',
+    'cans': 'Recyclable',
     'paper': 'Recyclable',
     'plastic': 'Recyclable',
     'trash': 'Landfill'
